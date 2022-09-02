@@ -1,0 +1,99 @@
+Languages-
+-NATURAL: language used by humans
+	-ambiguous: open to interpretation
+-HIGH-LEVEL: language that is understood by humans
+	-unambiguous
+	-C++ is a high level language
+	-"int a = b + c"
+-MACHINE-LANGUAGE: 
+	-low level
+	-unambiguous
+	-example 0101 0001 1100 0010
+-SOFTWARE
+	-program (code): sequence of instructions for a computer to follow
+		-system: to be used by other programmers
+		-OS: allocates computer resources, launches other programs and ensures they work properly
+		-application: to be used by end-users
+	-SOFTWARE: collection of programs
+	-DATA: input to the program
+	-running/executing program - performing program instructions on given data
+	-code:
+		-source (in high-level language)
+		-object (in machine language)
+		-executable code (in machine language) - can run on computer
+	-library: collection of previously developed object code: input/output, math, etc.
+		-is used to make coding easier by reusing code logic.
+	-compiler: a system program that translates high-level language into low-level language
+	-linker: program that takes object code and produces executable code
+		-???
+
+	-SOURCE CODE + LIBRARIES --> COMPILER: CHECK FILE FOR LEGAL SYNTAX = OBJECT CODE + STANDARD LIBRARIES --> LINKER: LINK OBJECT CODE WITH
+															PRE COMPILED ROUTINES
+																|
+																|
+																V
+															EXECUTABLE CODE
+
+	
+PROGRAMMING LANGUAGE- POWER VS UNDERSTANDABILITY:
+	-programming language properties:
+		-POWER: ability to express varieties of ideas, code tasks, more powerful language makes easier to program
+			-more tools
+			-more help
+		-UNDERSTANDABILITY: ease of making sense of the code by proficient programmer
+			-java is more understandable, but less powerful
+
+
+C++ creation history:
+	-1967- BCPL was developed as a language for writing operating systems and compilers
+	-in 1970, the creators of UNIX operating system needed a high-levle programming language that provided enough power for their task.
+	-developed B on the basis of BCPL
+	-in 1972, an enhanced and improved version of the language called C was used to code most of UNIX
+		-C is powerful, yet less understandable
+	-early 1980s, Bjarne Stroustrup developed an extension of C called C++
+		-absorbed best features of C, combines power of low-level language with understandability of high-level language
+		-major addition is objects: C++ is object oriented
+
+C++ popularity:
+	-C/C++ are possibly the most popular programming languages in use today
+	-most of operating systems (one of the largest and most complicated pieces of software) is written in C or C++
+		-source code for Microsoft Windows 10 contains 50-60 million lines of mostly C/C++
+		-source code for Linux kernel (v.4.19) 27.8 million lines of primarily C
+
+C++ program layout:
+	-INCLUDES directive: tells compiler where to find certain items about the program
+	-MAIN: contains instructions for the computer, starts and ends with curly brackets:
+		-indicates program start
+	-STATEMENT- single unit of execution
+		-ends with ;
+	-program consists of sequence of statements
+	-COMMENT: portion of line ignored by compiler - serves to make code easier to understand
+	-LINE BREAKS AND INDENTATIONS: ignored by compiler, only for human understandability
+
+First Program: helloWorld.cpp
+
+					//displays a greeting
+					//Keegan Knapp
+					// MM/DD/YYYY
+include directive			#include <iostream>
+				
+what program uses			using std::cout; using std::endl;
+				
+main indicates start of program		int main() {
+output statement			cout << "Hello, World!" << endl;
+					}
+
+
+
+Rules Of Programming:
+	-SYNTAX: principles of constructing (structuring) the program
+		-legal program construct complies with syntactic rules
+		-illegal violates
+	-SEMANTICS: the meaning of programming constructs
+		-ex. assignment statement gives a new value to a variable (x = value;)
+	-STYLE: non-syntactic rules of program writing aimed at making program easier to read and understand
+		-ex. commenting before constructs, indents, spacing
+
+
+
+
