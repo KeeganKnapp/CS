@@ -62,8 +62,8 @@ C++ Basics:
 		-DECLARATION - introduction of the name to the comiler
 		-type- the kind of data stored in a variable
 		-variable declaration statement specifies:
-			-type
-			-name
+			-variable type
+			-variable name
 		-declaration syntax: type id1, id2, id3;
 		-two commonly used numeric types are:
 			-int - whole positive or negative numbers:
@@ -108,7 +108,9 @@ C++ Basics:
 				cout << numberOfBars << "candy bars\n";
 			
 			-'\n' : serves same purpose as endl
-
+			-escape characters : \n \endl
+			-backslash, \, preceding a character tells compiler that character following the \ doesn't have the same meaning as the
+				character appearing by itself without the \
 			-arithmetic statements can be used with the output statement:
 
 		-INPUT
@@ -116,3 +118,20 @@ C++ Basics:
 			-need to add the following to the beginning of your program
 				using std::cin;
 				cin >> number of bars >> oneWeight;
+
+	TYPES, EXPRESSION
+		type is the kind of data that is stored in variables
+			-int - whole nums
+			-double - numbers with fractions (floating point numbers)
+			-due to limited storage, fractions can only contain a limited # of digits (usually up to 14)
+			-double number always has dot. trailing or leading zero may be skipped.
+				-2.0, -3.23 +0.0456
+			-largest allowable number differs by architecture. Usually:
+				int - up to 32767
+				double up to 10^308
+			-int or double (or any other type in C++) cannot contain a comma
+			-in this course, use int
+
+			-char: stores single character
+				-char varName;
+				
