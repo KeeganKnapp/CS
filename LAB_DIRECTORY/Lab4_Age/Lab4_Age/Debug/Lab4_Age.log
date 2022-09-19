@@ -1,0 +1,7 @@
+﻿  age.cpp
+C:\Users\student\source\repos\Lab4_Age\Lab4_Age\age.cpp(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\student\source\repos\Lab4_Age\Lab4_Age\age.cpp(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\student\source\repos\Lab4_Age\Lab4_Age\age.cpp(6,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\student\source\repos\Lab4_Age\Lab4_Age\age.cpp(11,23): warning C4244: 'initializing': conversion from 'time_t' to 'int', possible loss of data
+C:\Users\student\source\repos\Lab4_Age\Lab4_Age\age.cpp(11,17): warning C4244: 'initializing': conversion from 'time_t' to 'const int', possible loss of data
+  Lab4_Age.vcxproj -> C:\Users\student\source\repos\Lab4_Age\Debug\Lab4_Age.exe
