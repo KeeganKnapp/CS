@@ -1,0 +1,13 @@
+﻿figuresInput.obj : error LNK2019: unresolved external symbol "void __cdecl square(int &,char &)" (?square@@YAXAAHAAD@Z) referenced in function _main
+    Hint on symbols that are defined and could potentially match:
+      "void __cdecl square(int,char)" (?square@@YAXHD@Z)
+figuresInput.obj : error LNK2019: unresolved external symbol "void __cdecl hollowSquare(int &,char &)" (?hollowSquare@@YAXAAHAAD@Z) referenced in function _main
+    Hint on symbols that are defined and could potentially match:
+      "void __cdecl hollowSquare(int,char)" (?hollowSquare@@YAXHD@Z)
+figuresInput.obj : error LNK2019: unresolved external symbol "void __cdecl slash(int &,char &)" (?slash@@YAXAAHAAD@Z) referenced in function _main
+    Hint on symbols that are defined and could potentially match:
+      "void __cdecl slash(int,char)" (?slash@@YAXHD@Z)
+figuresInput.obj : error LNK2019: unresolved external symbol "void __cdecl triangle(int &,char &)" (?triangle@@YAXAAHAAD@Z) referenced in function _main
+    Hint on symbols that are defined and could potentially match:
+      "void __cdecl triangle(int,char)" (?triangle@@YAXHD@Z)
+C:\Users\student\source\repos\Lab5_Figures\Debug\Lab5_Figures.exe : fatal error LNK1120: 4 unresolved externals
